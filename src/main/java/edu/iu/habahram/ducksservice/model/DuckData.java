@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 
 import java.util.Objects;
 @Entity
-@Table(schema = "ducks", name = "ducks")
+@Table(schema = "flowers", name = "ducks")
 public class DuckData {
     @Id
     @GeneratedValue

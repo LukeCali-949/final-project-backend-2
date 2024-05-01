@@ -39,7 +39,7 @@ public class CustomerFileRepository {
                 StandardOpenOption.APPEND);
     }
     public void save(Customer customer) throws Exception {
-        Customer c = findByUsername(customer.getUsername());
+        Customer c = findByUsername(customer.getEmail());
         if(c != null) {
             throw new
                     Exception("This username already exists. " +

@@ -1,19 +1,13 @@
 package edu.iu.habahram.ducksservice.repository;
 
-import edu.iu.habahram.ducksservice.model.Duck;
-import edu.iu.habahram.ducksservice.model.DuckData;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.List;
 
 @Component
 public class DucksFileRepository {
